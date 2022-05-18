@@ -1,0 +1,34 @@
+{
+  "language": {
+    "navbar": {
+      "greetings": [
+        "Greetings!",
+        "Witaj!"
+      ],
+      "aboutMe": [
+        "About me",
+        "O mnie"
+      ],
+      "myProjects": [
+        "My projects",
+        "Moje projekty"
+      ],
+      "whatNext": [
+        "What next?",
+        "Co dalej?"
+      ],
+      "contact": [
+        "Contact",
+        "Kontakt"
+      ],
+      "language": [
+        "Language: ",
+        "Język: "
+      ],
+      "languageImage": [
+        "icons/icon_flag_eng.png",
+        "icons/icon_flag_pol.png"
+      ]
+    }
+  }
+}
