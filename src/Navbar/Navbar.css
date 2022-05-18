@@ -1,0 +1,30 @@
+nav {
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+}
+
+nav .navButton {
+  background-color: #292929;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 32px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+nav .navButton:hover {
+  background-color: #3a3a3a;
+  transition-duration: 0s;
+}
+nav .navButton:active {
+  background-color: #505050;
+  transition-duration: 0s;
+}
