@@ -1,5 +1,5 @@
 nav {
-  background-color: var(--color-secondary);
+  background-color: var(--color-navbar);
   display: flex;
   justify-content: center;
   position: sticky;
@@ -23,9 +23,10 @@ nav .navButton {
 }
 nav .navButton h4 {
   color: var(--color-font);
+  text-shadow: 2px 1px 2px var(--color-navbar);
 }
 nav .navButton h4:after {
-  background-color: #00aaaa00;
+  background-color: #00000000;
   content: '';
   display: block;
   position: absolute;
@@ -38,17 +39,17 @@ nav .navButton h4:after {
   transition-timing-function: ease-in-out;
 }
 nav .navButton:hover h4:after {
-  background-color: #008888;
+  background-color: var(--color-accent);
   height: 100%;
   top: 0%;
   transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease-out;
 }
 nav .navButton:active h4:after {
-  height: 80%;
-  top: 10%;
+  height: 76%;
+  top: 12%;
   transition-duration: 0.05s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease-out;
 }
 nav #language {
   position: absolute;
@@ -64,4 +65,15 @@ nav #theme {
   position: absolute;
   width: 180px;
   right: 0px;
+}
+nav #theme #themeAccentColors {
+  background-color: var(--color-accent);
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 4px;
+  border: 2px solid var(--color-font);
+  border-radius: 50%;
+  z-index: -2;
 }

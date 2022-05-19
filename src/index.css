@@ -1,11 +1,57 @@
-.theme-dark {
-  --color-primary: #101010;
-  --color-secondary: #292929;
+.theme-dark-blue {
+  --color-navbar: #101010;
+  --color-primary: #202020;
+  --color-secondary: #303030;
+  --color-accent: #008888;
   --color-font: #ffffff;
 }
-.theme-light {
+.theme-dark-purple {
+  --color-navbar: #101010;
+  --color-primary: #202020;
+  --color-secondary: #303030;
+  --color-accent: #700070;
+  --color-font: #ffffff;
+}
+.theme-dark-green {
+  --color-navbar: #101010;
+  --color-primary: #202020;
+  --color-secondary: #303030;
+  --color-accent: #339933;
+  --color-font: #ffffff;
+}
+.theme-dark-yellow {
+  --color-navbar: #101010;
+  --color-primary: #202020;
+  --color-secondary: #303030;
+  --color-accent: #888800;
+  --color-font: #ffffff;
+}
+.theme-light-blue {
+  --color-navbar: #ffffff;
   --color-primary: #e0e0e0;
   --color-secondary: #ffffff;
+  --color-accent: #00cccc;
+  --color-font: #000000;
+}
+.theme-light-purple {
+  --color-navbar: #ffffff;
+  --color-primary: #e0e0e0;
+  --color-secondary: #ffffff;
+  --color-accent: #dd22dd;
+  --color-font: #000000;
+}
+.theme-light-green {
+  --color-navbar: #ffffff;
+  --color-primary: #e0e0e0;
+  --color-secondary: #ffffff;
+  --color-accent: #44dd44;
+  --color-font: #000000;
+}
+.theme-light-yellow {
+  --color-navbar: #ffffff;
+  --color-primary: #e0e0e0;
+  --color-secondary: #ffffff;
+  --color-accent: #dddd00;
   --color-font: #000000;
 }
 body {
