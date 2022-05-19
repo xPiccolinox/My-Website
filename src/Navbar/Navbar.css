@@ -1,5 +1,5 @@
 nav {
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
   display: flex;
   justify-content: center;
   position: sticky;
@@ -10,8 +10,7 @@ nav {
 }
 
 nav .navButton {
-  background-color: #29292900;
-  color: #ffffff;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,16 +20,35 @@ nav .navButton {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.5px;
+}
+nav .navButton h4 {
+  color: var(--color-font);
+}
+nav .navButton h4:after {
+  background-color: #00aaaa00;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  top: 50%;
+  left: 0px;
+  z-index: -1;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
-nav .navButton:hover {
-  background-color: #3a3a3a;
-  transition-duration: 0s;
+nav .navButton:hover h4:after {
+  background-color: #008888;
+  height: 100%;
+  top: 0%;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
-nav .navButton:active {
-  background-color: #505050;
-  transition-duration: 0s;
+nav .navButton:active h4:after {
+  height: 80%;
+  top: 10%;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
 }
 nav #language {
   position: absolute;

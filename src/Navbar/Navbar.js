@@ -15,44 +15,44 @@ const Navbar = (props) => {
         id="home" 
         className="navButton"
         onClick={(e) => goTo(e.target.id)}>
-          {db.language.navbar.greetings[props.language]}
+          <h4>{db.language.navbar.greetings[props.language]}</h4>
       </div>
       <div 
         id="aboutMe" 
         className="navButton" 
         onClick={(e) => goTo(e.target.id)}>
-          {db.language.navbar.aboutMe[props.language]}
+          <h4>{db.language.navbar.aboutMe[props.language]}</h4>
       </div>
       <div 
         id="myProjects" 
         className="navButton" 
         onClick={(e) => goTo(e.target.id)}>
-          {db.language.navbar.myProjects[props.language]}
+          <h4>{db.language.navbar.myProjects[props.language]}</h4>
       </div>
       <div 
         id="roadmap" 
         className="navButton" 
         onClick={(e) => goTo(e.target.id)}>
-          {db.language.navbar.whatNext[props.language]}
+          <h4>{db.language.navbar.whatNext[props.language]}</h4>
       </div>
       <div 
         id="contact" 
         className="navButton" 
         onClick={(e) => goTo(e.target.id)}>
-          {db.language.navbar.contact[props.language]}
+          <h4>{db.language.navbar.contact[props.language]}</h4>
       </div>
       <div 
         id="language" 
         className="navButton" 
         onClick={props.changeLanguage}>
-          {db.language.navbar.language[props.language]}
+          <h4>{db.language.navbar.language[props.language]}</h4>
           <img id="languageImage" src={languageImage} alt="LanguageImage" />
       </div>
       <div 
         id="theme" 
         className="navButton" 
         onClick={props.changeTheme}>
-          {db.language.navbar.theme[props.language]}
+          <h4>{db.language.navbar.theme[props.language]}</h4>
           <img id="languageImage" src={languageImage} alt="LanguageImage" />
       </div>
     </nav>
