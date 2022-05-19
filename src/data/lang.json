@@ -28,6 +28,10 @@
       "languageImage": [
         "icons/icon_flag_eng.png",
         "icons/icon_flag_pol.png"
+      ],
+      "theme": [
+        "Theme: ",
+        "Motyw: "
       ]
     }
   }
