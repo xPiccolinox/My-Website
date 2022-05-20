@@ -11,6 +11,7 @@ function App() {
   const themes = ['theme-dark', 'theme-light']
   const [accent, setAccent] = useState(0)
   const accents = ['blue', 'purple', 'green', 'yellow']
+  const [themePanelOpened, setThemePanelOpened] = useState(false)
 
   useEffect (() => {
     document.documentElement.className = `${themes[theme]}-${accents[accent]}`
@@ -34,6 +35,16 @@ function App() {
       }, 200)
     }, 500)
   }
+  const switchThemePanel = () => {
+    setThemePanelOpened(!themePanelOpened)
+    if (themePanelOpened == false) {
+      document.getElementById('themePanel').style.right = '0px'
+      document.getElementById(theme)
+    }
+    else {
+      document.getElementById('themePanel').style.right = '-300px'
+    }
+  }
   const changeTheme = (themeId) => {
     setTheme(themeId.slice(themeId.indexOf('_') + 1))
     document.documentElement.className = `${themes[themeId.slice(themeId.indexOf('_') + 1)]}-${accents[accent]}`
@@ -45,12 +56,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar
-        language={language}
-        changeLanguage={changeLanguage}
-        changeTheme={changeTheme}
-      />
-      <ThemePanel theme={theme} accent={accent} changeTheme={changeTheme} changeAccent={changeAccent}/>
+      <Navbar language={language} changeLanguage={changeLanguage} switchThemePanel={switchThemePanel} />
+      <ThemePanel theme={theme} accent={accent} changeTheme={changeTheme} changeAccent={changeAccent} />
       {/* <Projects /> */}
     </div>
   );

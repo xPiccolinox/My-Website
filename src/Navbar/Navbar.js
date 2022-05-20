@@ -51,7 +51,7 @@ const Navbar = (props) => {
       <div 
         id="theme" 
         className="navButton" 
-        onClick={props.changeTheme}>
+        onClick={props.switchThemePanel}>
           <h4>{db.language.navbar.theme[props.language]}</h4>
           <div id="themeAccentColors" />
       </div>
