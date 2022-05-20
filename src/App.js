@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css';
 import Navbar from './Navbar/Navbar'
+import ThemePanel from './ThemePanel/ThemePanel'
 import Projects from './Projects/Projects'
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   const languages = ['english', 'polish']
   const [theme, setTheme] = useState(0)
   const themes = ['theme-dark', 'theme-light']
-  const [accent, setAccent] = useState(3)
+  const [accent, setAccent] = useState(0)
   const accents = ['blue', 'purple', 'green', 'yellow']
 
   useEffect (() => {
@@ -33,15 +34,13 @@ function App() {
       }, 200)
     }, 500)
   }
-  const changeTheme = () => {
-    if (theme == themes.length - 1) {
-      setTheme(0)
-      document.documentElement.className = `${themes[0]}-${accents[accent]}`
-    }
-    else {
-      setTheme(theme + 1)
-      document.documentElement.className = `${themes[theme + 1]}-${accents[accent]}`
-    }
+  const changeTheme = (themeId) => {
+    setTheme(themeId.slice(themeId.indexOf('_') + 1))
+    document.documentElement.className = `${themes[themeId.slice(themeId.indexOf('_') + 1)]}-${accents[accent]}`
+  }
+  const changeAccent = (accentId) => {
+    setAccent(accentId.slice(accentId.indexOf('_') + 1))
+    document.documentElement.className = `${themes[theme]}-${accents[accentId.slice(accentId.indexOf('_') + 1)]}`
   }
 
   return (
@@ -51,7 +50,8 @@ function App() {
         changeLanguage={changeLanguage}
         changeTheme={changeTheme}
       />
-      <Projects />
+      <ThemePanel theme={theme} accent={accent} changeTheme={changeTheme} changeAccent={changeAccent}/>
+      {/* <Projects /> */}
     </div>
   );
 }

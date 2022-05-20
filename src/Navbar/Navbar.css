@@ -6,6 +6,7 @@ nav {
   top: 0px;
   width: 100%;
   height: 64px;
+  box-shadow: 0px 0px 10px 0px #000000;
   z-index: 1;
 }
 
@@ -76,4 +77,11 @@ nav #theme #themeAccentColors {
   border: 2px solid var(--color-font);
   border-radius: 50%;
   z-index: -2;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+nav #theme:hover #themeAccentColors {
+  width: 0px;
+  height: 0px;
+  margin-left: 0px;
 }

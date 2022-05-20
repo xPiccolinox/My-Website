@@ -1,0 +1,70 @@
+#themePanel {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 300px;
+  top: 64px;
+  right: 0px;
+  box-shadow: 0px 0px 10px 0px #000000;
+  overflow: hidden;
+}
+#themePanel .themePanelHeader {
+  background-color: var(--color-navbar);
+  color: var(--color-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  box-shadow: 0px 3px 6px -2px #000000;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+#themePanel .themePanelColor {
+  display: block;
+  width: calc(50% - 48px);
+  height: 56px;
+  margin: 24px;
+  box-shadow: 3px 3px 6px -2px #000000;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in;
+}
+#themePanel .themePanelColor:hover {
+  width: calc(50% - 40px);
+  height: 64px;
+  margin: 20px;
+}
+/* Themes */
+#themePanel #themes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#themePanel #theme_0 {
+  background-color: #202020;
+}
+#themePanel #theme_1 {
+  background-color: #ffffff;
+}
+/* Accents */
+#themePanel #accents {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#themePanel #accent_0 {
+  background-color: #008888;
+}
+#themePanel #accent_1 {
+  background-color: #700070;
+}
+#themePanel #accent_2 {
+  background-color: #339933;
+}
+#themePanel #accent_3 {
+  background-color: #aaaa00;
+}
