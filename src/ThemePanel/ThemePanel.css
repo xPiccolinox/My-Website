@@ -7,7 +7,7 @@
   position: fixed;
   width: 300px;
   top: 64px;
-  right: -300px;
+  right: -310px;
   box-shadow: 0px 0px 10px 0px #000000;
   overflow: hidden;
 }
@@ -31,7 +31,7 @@
   margin: 24px;
   box-shadow: 3px 3px 6px -2px #000000;
   transition-duration: 0.1s;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
 }
 #themePanel .themePanelColor:hover {
   width: calc(50% - 40px);

@@ -16,7 +16,7 @@ function App() {
   useEffect (() => {
     document.documentElement.className = `${themes[theme]}-${accents[accent]}`
   }, [])
-
+  
   const changeLanguage = () => {
     document.querySelectorAll('*').forEach(element => {
       element.style.color = '#00000000'
@@ -39,10 +39,11 @@ function App() {
     setThemePanelOpened(!themePanelOpened)
     if (themePanelOpened == false) {
       document.getElementById('themePanel').style.right = '0px'
-      document.getElementById(theme)
+      document.getElementById('theme').style.width = 'calc(300px - 48px)'
     }
     else {
-      document.getElementById('themePanel').style.right = '-300px'
+      document.getElementById('themePanel').style.right = '-310px'
+      document.getElementById('theme').style.width = '180px'
     }
   }
   const changeTheme = (themeId) => {
