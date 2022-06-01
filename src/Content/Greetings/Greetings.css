@@ -1,0 +1,30 @@
+#content #greetings {
+  position: relative;
+  display: block;
+  width: 100;
+  height: calc(100% + 225px);
+  overflow: hidden;
+}
+#content #greetings h4 {
+  position: relative;
+  color: #ffffff;
+  text-shadow: -2px -2px 1px #000000, 2px 2px 1px #000000;
+  top: 37%;
+  font-size: 80px;
+  transform: rotate(-8deg);
+}
+#content #greetings #greetingsGif {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+#content #greetings #greetingsOverlay {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  box-shadow: inset 0px -650px 75px -500px var(--color-primary);
+}

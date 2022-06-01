@@ -1,0 +1,45 @@
+#content #projects {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#content #projects .projectTile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 32%;
+  color: var(--color-font);
+  text-align: left;
+}
+#content #projects .projectTile img {
+  height: 100%;
+}
+#content #projects .projectTile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 256px 36px 64px;
+  text-align: left;
+}
+#content #projects .projectTile div p:nth-child(1) {
+  width: 100%;
+  margin: 0;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: inherit;
+}
+#content #projects .projectTile div p:nth-child(2) {
+  margin: 0;
+  font-size: 19px;
+  line-height: 165%;
+}
+#content #projects .projectTile:nth-child(odd) {
+  background-color: var(--color-navbar);
+  flex-direction: row-reverse;
+}
+#content #projects .projectTile:nth-child(odd) div {
+  padding: 36px 64px 36px 256px;
+  text-align: right;
+}

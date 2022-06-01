@@ -2,37 +2,59 @@
   "language": {
     "navbar": {
       "greetings": [
-        "Greetings!",
-        "Witaj!"
+        "GREETINGS!",
+        "WITAJ!"
       ],
       "aboutMe": [
-        "About me",
-        "O mnie"
+        "ABOUT ME",
+        "O MNIE"
       ],
       "myProjects": [
-        "My projects",
-        "Moje projekty"
+        "MY PROJECTS",
+        "MOJE PROJEKTY"
       ],
       "whatNext": [
-        "What next?",
-        "Co dalej?"
+        "WHAT NEXT?",
+        "CO DALEJ?"
       ],
       "contact": [
-        "Contact",
-        "Kontakt"
+        "CONTACT",
+        "KONTAKT"
       ],
       "language": [
-        "Language: ",
-        "Język: "
+        "LANGUAGE: ",
+        "JĘZYK: "
       ],
       "languageImage": [
         "icons/icon_flag_eng.png",
         "icons/icon_flag_pol.png"
       ],
       "theme": [
-        "Theme: ",
-        "Motyw: "
+        "THEME: ",
+        "MOTYW: "
+      ],
+      "themes": [
+        "THEMES: ",
+        "MOTYWY: "
+      ],
+      "accents": [
+        "ACCENTS: ",
+        "AKCENTY: "
       ]
-    }
+    },
+    "aboutMe": {
+      "whoAmI": [
+        "WHO AM I?",
+        "KIM JESTEM?"
+      ],
+      "howItStarted": [
+        "HOW IT STARTED",
+        "JAK TO SIĘ ZACZĘŁO"
+      ]  
+    },
+    "myProjects": {
+    
+    },
+    "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 }

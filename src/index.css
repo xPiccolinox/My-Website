@@ -9,14 +9,14 @@
   --color-navbar: #101010;
   --color-primary: #202020;
   --color-secondary: #303030;
-  --color-accent: #700070;
+  --color-accent: #880088;
   --color-font: #ffffff;
 }
 .theme-dark-green {
   --color-navbar: #101010;
   --color-primary: #202020;
   --color-secondary: #303030;
-  --color-accent: #339933;
+  --color-accent: #338833;
   --color-font: #ffffff;
 }
 .theme-dark-yellow {
@@ -28,30 +28,58 @@
 }
 .theme-light-blue {
   --color-navbar: #ffffff;
-  --color-primary: #eeeeee;
-  --color-secondary: #dddddd;
-  --color-accent: #00cccc;
+  --color-primary: #d9d9d9;
+  --color-secondary: #f0f0f0;
+  --color-accent: #38aedd;
   --color-font: #000000;
 }
 .theme-light-purple {
   --color-navbar: #ffffff;
-  --color-primary: #eeeeee;
-  --color-secondary: #dddddd;
-  --color-accent: #dd22dd;
+  --color-primary: #d9d9d9;
+  --color-secondary: #f0f0f0;
+  --color-accent: #bb24bb;
   --color-font: #000000;
 }
 .theme-light-green {
   --color-navbar: #ffffff;
-  --color-primary: #eeeeee;
-  --color-secondary: #dddddd;
-  --color-accent: #44dd44;
+  --color-primary: #d9d9d9;
+  --color-secondary: #f0f0f0;
+  --color-accent: #30c230;
   --color-font: #000000;
 }
 .theme-light-yellow {
   --color-navbar: #ffffff;
-  --color-primary: #eeeeee;
-  --color-secondary: #dddddd;
-  --color-accent: #eeee00;
+  --color-primary: #d9d9d9;
+  --color-secondary: #f0f0f0;
+  --color-accent: #dada26;
+  --color-font: #000000;
+}
+.theme-blue-blue {
+  --color-navbar: #599ebe;
+  --color-primary: #d3f1ff;
+  --color-secondary: #abdff7;
+  --color-accent: #38aedd;
+  --color-font: #000000;
+}
+.theme-blue-purple {
+  --color-navbar: #599ebe;
+  --color-primary: #d3f1ff;
+  --color-secondary: #abdff7;
+  --color-accent: #bb24bb;
+  --color-font: #000000;
+}
+.theme-blue-green {
+  --color-navbar: #599ebe;
+  --color-primary: #d3f1ff;
+  --color-secondary: #abdff7;
+  --color-accent: #30c230;
+  --color-font: #000000;
+}
+.theme-blue-yellow {
+  --color-navbar: #599ebe;
+  --color-primary: #d3f1ff;
+  --color-secondary: #abdff7;
+  --color-accent: #dada26;
   --color-font: #000000;
 }
 body {
@@ -74,4 +102,16 @@ body * {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+::-webkit-scrollbar {
+	background-color: #ffffff00;
+	width: 12px;
+}
+::-webkit-scrollbar-track {
+	background-color: #ffffff00;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-navbar);
+  border: 2px solid var(--color-secondary);
+	border-radius: 15px;
 }

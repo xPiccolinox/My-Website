@@ -10,6 +10,7 @@
   right: -310px;
   box-shadow: 0px 0px 10px 0px #000000;
   overflow: hidden;
+  z-index: 1;
 }
 #themePanel .themePanelHeader {
   background-color: var(--color-navbar);
@@ -18,11 +19,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 48px;
+  height: 38px;
   box-shadow: 0px 3px 6px -2px #000000;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 1.5px;
 }
 #themePanel .themePanelColor {
   display: block;
@@ -38,33 +39,18 @@
   height: 64px;
   margin: 20px;
 }
-/* Themes */
+#themePanel .themePanelColor:active {
+  width: calc(50% - 40px);
+  height: 52px;
+  margin: 26px 20px;
+}
 #themePanel #themes {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
-#themePanel #theme_0 {
-  background-color: #202020;
-}
-#themePanel #theme_1 {
-  background-color: #ffffff;
-}
-/* Accents */
 #themePanel #accents {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
-#themePanel #accent_0 {
-  background-color: #008888;
-}
-#themePanel #accent_1 {
-  background-color: #700070;
-}
-#themePanel #accent_2 {
-  background-color: #339933;
-}
-#themePanel #accent_3 {
-  background-color: #aaaa00;
 }

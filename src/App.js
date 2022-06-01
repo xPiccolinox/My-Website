@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react'
 import './App.css';
 import Navbar from './Navbar/Navbar'
 import ThemePanel from './ThemePanel/ThemePanel'
-import Projects from './Projects/Projects'
+import Content from './Content/Content'
+
 
 function App() {
   const [language, setLanguage] = useState(0)
   const languages = ['english', 'polish']
   const [theme, setTheme] = useState(0)
-  const themes = ['theme-dark', 'theme-light']
+  const themes = ['theme-dark', 'theme-light', 'theme-blue']
   const [accent, setAccent] = useState(0)
   const accents = ['blue', 'purple', 'green', 'yellow']
   const [themePanelOpened, setThemePanelOpened] = useState(false)
@@ -58,8 +59,8 @@ function App() {
   return (
     <div className="App">
       <Navbar language={language} changeLanguage={changeLanguage} switchThemePanel={switchThemePanel} />
-      <ThemePanel theme={theme} accent={accent} changeTheme={changeTheme} changeAccent={changeAccent} />
-      {/* <Projects /> */}
+      <ThemePanel language={language} theme={theme} accent={accent} changeTheme={changeTheme} changeAccent={changeAccent} />
+      <Content language={language}/>
     </div>
   );
 }
