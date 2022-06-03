@@ -7,7 +7,7 @@ const Content = (props) => {
   return (
     <div id="content">
       <Greetings />
-      <AboutMe language={props.language}/>
+      {/* <AboutMe language={props.language}/> */}
       <Projects />
     </div>
   )
