@@ -8,7 +8,7 @@ const Content = (props) => {
     <div id="content">
       <Greetings />
       {/* <AboutMe language={props.language}/> */}
-      <Projects />
+      <Projects language={props.language} />
     </div>
   )
 }

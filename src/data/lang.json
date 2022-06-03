@@ -53,7 +53,22 @@
       ]  
     },
     "myProjects": {
-    
+      "riceKing": [
+        "\"Rice King\" is a platformer JavaScript game I wrote as my first ever project, it helped me to get along with JS. I know it's messy but I desided to leave it this way to see my coding progression. ¯\\_(ツ)_/¯",
+        "\"Rice King\" to gra platformowa napisana w JavaScript jako mój pierwszy w życiu projekt, pomógł mi zaznajomić się z otoczeniem JS. Kod to jeden wielki bałagan, ale postanowiłem właśnie tak to zostawić, żeby widzieć postępy przy kodowaniu innych projektów. ¯\\_(ツ)_/¯"
+      ],
+      "riceKingLevelCreator": [
+        "While making Rice King I was getting annoyed when I was coding levels by hand, so I decided that I needed something to help me with that. That's why I created \"Level Creator\" which turned out to be really handy and powerful tool.",
+        "Podczas tworzenia Rice King'a powoli zaczynało mnie irytować odręczne kodowanie poziomów, więc uznałem, że potrzebuję czegoś do pomocy. Tak powstał \"Level Creator\", który okazał się być przydatnym, a także potężnym narzędziem."
+      ],
+      "spotifyCloneApp": [
+        "Cloned Spotify application made with React and ReactRouter. I wanted to make it as similiar to Spotify as possible and despite still being in progress I think I nailed it! Fun fact: I had mistaken my clone with real Spotify multiple times",
+        "Klon aplikacji Spotify stworzony przy pomocy React oraz ReactRouter. Chciałem, żeby przypominało Spotify najbardziej jak się da i uważam, że na ten moment wygląda całkiem dobrze! Ciekawostka: Kilka razy pomyliłem mojego klona z prawdziwą aplikacją"
+      ],
+      "myWebsite": [
+        "Welcome to my website! As you can see you can read about me a little, check my projects and contact me. Also I'm glad you came here.",
+        "Witam na mojej stronie! Jak zapewne widzisz, możesz się tutaj trochę o mnie dowiedzieć, sprawdzić moje projekty i kontaktować się ze mną. Przy okazji, bardzo się cieszę, że tutaj wpadłeś/-aś."
+      ]
     },
     "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. "
   }
