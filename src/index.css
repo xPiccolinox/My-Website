@@ -82,6 +82,11 @@
   --color-accent: #dada26;
   --color-font: #000000;
 }
+* {
+  transition-property: color, background-color, box-shadow, text-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -92,11 +97,12 @@ body {
   margin: 0;
   user-select: none;
   overflow-x: hidden;
-  transition-property: color;
+  transition-property: color, background-color, box-shadow, text-shadow;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
-body * {
+.languageChange {
+  transition-property: filter;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }

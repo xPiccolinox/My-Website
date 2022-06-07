@@ -11,13 +11,43 @@
   text-shadow: -2px -2px 1px #000000, 2px 2px 1px #000000;
   top: 37%;
   font-size: 80px;
-  transform: rotate(-8deg);
+  transform: rotate(-8deg) translateZ(-500px);
 }
-#content #greetings #greetingsGif {
+#content #greetings img {
   position: absolute;
   width: 100%;
   top: 0px;
   left: 0px;
+  z-index: -1;
+}
+#content #greetings #greetings_7 {
+  filter: blur(3px);
+}
+#content #greetings #greetings_6 {
+  filter: blur(3px);
+}
+#content #greetings #greetings_5 {
+  filter: blur(2px);
+}
+#content #greetings #greetings_4 {
+  filter: blur(1.5px);
+}
+#content #greetings #greetings_3 {
+  filter: blur(1px);
+}
+#content #greetings #greetings_2 {
+  filter: blur(1px);
+}
+#content #greetings #greetings_text {
+  position: relative;
+  width: 100%;
+  top: 26%;
+  left: 50%;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+  text-shadow: 4px 4px #000000;
+  transform: translate(-50%, -50%);
   z-index: -1;
 }
 #content #greetings #greetingsOverlay {

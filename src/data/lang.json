@@ -42,6 +42,12 @@
         "AKCENTY: "
       ]
     },
+    "greetings": {
+      "greetings": [
+        "Greetings, friend!",
+        "Witaj przyjacielu!"
+      ]
+    },
     "aboutMe": {
       "whoAmI": [
         "WHO AM I?",

@@ -1,69 +1,108 @@
-#content #projects {
+#content #myProjects {
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  padding: 64px 0px 300px 0px;
   width: 100%;
 }
-#content #projects a {
-  color: var(--color-font);
-  text-decoration: none;
-}
-#content #projects a .projectTile {
+#content #myProjects #projectsList {
   display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 220px;
-  color: var(--color-font);
-  text-align: left;
-  box-sizing: border-box;
-  padding: 0px 256px 0px 0px;
-  transition: ease-in-out 0.6s;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+  row-gap: 64px;
+  width: 1250px;
 }
-#content #projects a:nth-child(odd) .projectTile {
-  padding: 0px 0px 0px 256px;
-}
-#content #projects a .projectTile img {
-  height: 100%;
-  box-shadow: -100px 0px var(--color-accent);
-}
-#content #projects a:nth-child(odd) .projectTile img {
-  box-shadow: 100px 0px var(--color-accent);
-}
-#content #projects a .projectTile div {
+#content #myProjects #projectsList .projectTile {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 36px 0px 36px 64px;
-  text-align: left;
+  width: 370px;
+  height: 260px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px #000000;
+  overflow: hidden;
 }
-/* Header */
-#content #projects a .projectTile div p:nth-child(1) {
-  width: 100%;
-  margin: 0;
-  font-size: 26px;
-  font-weight: 600;
-  text-align: inherit;
+/* Image */
+#content #myProjects #projectsList .projectTile img {
+  object-fit: contain;
+  position: absolute;
+  height: 100%;
+  filter: brightness(1);
+  transition: ease-in-out 1s;
 }
-/* Description */
-#content #projects a .projectTile div p:nth-child(2) {
-  margin: 0;
-  font-size: 16px;
-  line-height: 165%;
-}
-#content #projects a:nth-child(odd) .projectTile {
-  background-color: var(--color-navbar);
-  flex-direction: row-reverse;
-}
-#content #projects a:nth-child(odd) .projectTile div {
-  padding: 36px 64px 36px 0px;
-  text-align: right;
-}
-#content #projects a .projectTile:hover {
+#content #myProjects #projectsList .projectTile:hover img {
+  filter: brightness(0.1);
   transition: ease-in-out 0.3s;
 }
-#content #projects a:nth-child(even) .projectTile:hover {
-  padding: 0px 220px 0px 36px;
+/* Description div */
+#content #myProjects #projectsList .projectTile .projectDesc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  filter: opacity(0);
+  transition: ease-in-out 1s;
 }
-#content #projects a:nth-child(odd) .projectTile:hover {
-  padding: 0px 36px 0px 220px;
+#content #myProjects #projectsList .projectTile:hover .projectDesc {
+  transform: translateY(0%);
+  filter: opacity(1);
+  transition: ease-in-out 0.3s;
+}
+/* Text div */
+#content #myProjects #projectsList .projectTile .projectDesc .projectText {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+  padding: 12px 16px 0px 16px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+}
+/* Link button */
+#content #myProjects #projectsList .projectTile .projectDesc .projectButtonArea {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35%;
+}
+#content #myProjects #projectsList .projectTile .projectDesc a {
+  background-color: #222222;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 42px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: white;
+  border-radius: 12px;
+  border: 0px solid #ffffff00;
+  box-shadow: 0px 0px 10px 2px #000000;
+  transition: ease-in-out 0.1s;
+}
+#content #myProjects #projectsList .projectTile .projectDesc a img {
+  position: relative;
+  height: 24px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+#content #myProjects #projectsList .projectTile .projectDesc a:hover {
+  border: 2px solid var(--color-accent);
+}
+#content #myProjects #projectsList .projectTile .projectDesc a:active {
+  background-color: var(--color-accent);
 }

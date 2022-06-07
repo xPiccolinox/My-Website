@@ -6,7 +6,7 @@ import Projects from './Projects/Projects'
 const Content = (props) => {
   return (
     <div id="content">
-      <Greetings />
+      <Greetings language={props.language} />
       {/* <AboutMe language={props.language}/> */}
       <Projects language={props.language} />
     </div>

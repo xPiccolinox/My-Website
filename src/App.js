@@ -19,18 +19,17 @@ function App() {
   }, [])
   
   const changeLanguage = () => {
-    document.querySelectorAll('*').forEach(element => {
-      element.style.color = '#00000000'
-      element.style.textShadow = 'none'
+    let elementsToChange = document.querySelectorAll(".languageChange")
+    elementsToChange.forEach(element => {
+      element.style.filter = "opacity(0)"
     })
     document.getElementById('languageImage').style.filter = 'opacity(0)'
     setTimeout(() => {
       if (language == languages.length - 1) setLanguage(0)
       else setLanguage(language + 1)
       setTimeout(() => {
-        document.querySelectorAll('*').forEach(element => {
-          element.style.color = 'var(--color-font)'
-          element.style.textShadow = '2px 1px 2px var(--color-navbar)'
+        elementsToChange.forEach(element => {
+          element.style.filter = "opacity(1)"
         })
         document.getElementById('languageImage').style.filter = 'opacity(1)'
       }, 200)
@@ -43,7 +42,7 @@ function App() {
       document.getElementById('theme').style.width = 'calc(300px - 48px)'
     }
     else {
-      document.getElementById('themePanel').style.right = '-310px'
+      document.getElementById('themePanel').style.right = '-330px'
       document.getElementById('theme').style.width = '180px'
     }
   }

@@ -21,13 +21,13 @@ const ThemePanel = (props) => {
 
   return(
     <div id="themePanel">
-      <div className="themePanelHeader">{db.language.navbar.themes[props.language]}</div>
+      <div className="themePanelHeader"><h4 className="languageChange">{db.language.navbar.themes[props.language]}</h4></div>
       <div id="themes">
         <div id="theme_0" className="themePanelColor" onClick={(e) => {props.changeTheme(e.target.id)}} />
         <div id="theme_1" className="themePanelColor" onClick={(e) => {props.changeTheme(e.target.id)}} />
         <div id="theme_2" className="themePanelColor" onClick={(e) => {props.changeTheme(e.target.id)}} />
       </div>
-      <div className="themePanelHeader">{db.language.navbar.accents[props.language]}</div>
+      <div className="themePanelHeader"><h4 className="languageChange">{db.language.navbar.accents[props.language]}</h4></div>
       <div id="accents">
         <div id="accent_0" className="themePanelColor" onClick={(e) => {props.changeAccent(e.target.id)}} />
         <div id="accent_1" className="themePanelColor" onClick={(e) => {props.changeAccent(e.target.id)}} />
