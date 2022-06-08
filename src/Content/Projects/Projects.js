@@ -35,7 +35,7 @@ const Projects = (props) => {
           </div>
         </div>
         <div className="projectTile">
-          <img src="images/spotifyCloneAppIP_image.png" alt="spotifyCloneApp_image.png" />
+          <img src="images/spotifyCloneApp_inProgress_image.png" alt="spotifyCloneApp_image.png" />
           <div className="projectDesc">
             <div className="projectText languageChange">
               {db.language.myProjects.spotifyCloneApp[props.language]}
@@ -49,7 +49,7 @@ const Projects = (props) => {
           </div>
         </div>
         <div className="projectTile">
-          <img src="images/myWebsiteIP_image.png" alt="myWebsite_image.png" />
+          <img src="images/myWebsite_inProgress_image.png" alt="myWebsite_image.png" />
           <div className="projectDesc">
             <div className="projectText languageChange">
               {db.language.myProjects.myWebsite[props.language]}

@@ -53,7 +53,7 @@ const Navbar = (props) => {
         className="navButton" 
         onClick={props.changeLanguage}>
           <h4 className="languageChange">{db.language.navbar.language[props.language]}</h4>
-          <img id="languageImage" src={languageImage} alt="LanguageImage" />
+          <img className="languageChange" id="languageImage" src={languageImage} alt="LanguageImage" />
       </div>
       <div 
         id="themeButton" 
