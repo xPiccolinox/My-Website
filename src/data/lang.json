@@ -49,14 +49,22 @@
       ]
     },
     "aboutMe": {
-      "whoAmI": [
-        "WHO AM I?",
-        "KIM JESTEM?"
+      "quote": [
+        "Life isn't a sprint, it's a marathon",
+        "Życie to nie sprint, tylko maraton"
       ],
-      "howItStarted": [
-        "HOW IT STARTED",
-        "JAK TO SIĘ ZACZĘŁO"
-      ]  
+      "aboutMeShort": [
+        "About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, ",
+        "O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, "
+      ],
+      "readMore": [
+        "Read more",
+        "Rozwiń"
+      ],
+      "readLess": [
+        "Read less",
+        "Zwiń"
+      ]
     },
     "myProjects": {
       "riceKing": [

@@ -4,25 +4,15 @@ import './AboutMe.css'
 const AboutMe = (props) => {
   return (
     <div id="aboutMe">
-      <div className="aboutMeTile">
-        <div className="aboutMeTileHeader">
-          {db.language.aboutMe.whoAmI[props.language]}
+      <div id="container">
+        <div id="aboutMeShort">
+          <img src="images/myPic.png" alt="myPic.png" />
+          <div className="languageChange" id="aboutMeShortContainer">
+            <div id="aboutMeQuote">&bdquo;{db.language.aboutMe.quote[props.language]}&rdquo;</div>
+            <div id="aboutMeText">{db.language.aboutMe.aboutMeShort[props.language]}</div>
+          </div>
         </div>
-      </div>
-      <div className="aboutMeTile">
-        <div className="aboutMeTileHeader">
-        {db.language.aboutMe.howItStarted[props.language]}
-        </div>
-      </div>
-      <div className="aboutMeTile">
-        <div className="aboutMeTileHeader">
-        {/* {db.language.aboutMe.whoAmI[props.language]} */}
-        </div>
-      </div>
-      <div className="aboutMeTile">
-        <div className="aboutMeTileHeader">
-        {/* {db.language.aboutMe.whoAmI[props.language]} */}
-        </div>
+        {/* <div id="aboutMeButton">Read More</div> */}
       </div>
     </div>
   )

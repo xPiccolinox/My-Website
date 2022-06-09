@@ -44,7 +44,7 @@ const Navbar = (props) => {
       </div> */}
       <div 
         id="contactButton" 
-        className="navButton" 
+        className="navButton"
         onClick={() => goTo("contact")}>
           <h4 className="languageChange">{db.language.navbar.contact[props.language]}</h4>
       </div>

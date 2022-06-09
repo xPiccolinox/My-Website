@@ -1,6 +1,5 @@
 #content {
   display: block;
-  flex-direction: column;
   width: 100vw;
   height: calc(100vh - 64px);
   overflow-y: overlay;
