@@ -1,53 +1,97 @@
 #content #aboutMe {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
   width: 100%;
-  height: 300px;
-  padding-top: 100px;
-  margin-bottom: 200px;
-  box-sizing: border-box;
+  height: auto;
+  padding-top: 120px;
+  margin-bottom: 100px;
+  overflow: hidden;
 }
-#content #aboutMe #container {
-  /* background-color: purple; */
+/* Short description */
+#content #aboutMe #aboutMeShortcontainer {
+  position: relative;
   display: flex;
+  flex-shrink: 0;
   width: 1200px;
-  height: 100%;
+  height: 360px;
 }
-#content #aboutMe #container #aboutMeShort {
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort {
   display: flex;
   height: 300px;
   width: 100%;
 }
-#content #aboutMe #container #aboutMeShort img {
-  width: 300px;
-  height: 300px;
-  border-bottom: 2px solid var(--color-font);
-  border-radius: 30%;
-  box-shadow: inset 0px -120px 30px -100px var(--color-font);
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort img {
+  width: 320px;
+  height: 360px;
+  object-fit: contain;
+  border-radius: 10%;
+  box-shadow: inset 0px -110px 30px -100px var(--color-font);
   box-sizing: border-box;
 }
-#content #aboutMe #container #aboutMeShort #aboutMeShortContainer {
-  width: calc(100% - 300px);
-  height: 300px;
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  width: calc(100% - 320px);
+  height: 360px;
   padding-left: 50px;
 }
-#content #aboutMe #container #aboutMeShort #aboutMeShortContainer #aboutMeQuote {
-  height: 100px;
-  padding-top: 30px;
-  box-sizing: border-box;
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer #aboutMeQuote {
   text-align: left;
   color: var(--color-font);
   font-size: 42px;
   font-weight: 300;
   font-style: italic;
 }
-#content #aboutMe #container #aboutMeShort #aboutMeShortContainer #aboutMeText {
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer #aboutMeText {
   display: flex;
   align-items: center;
-  height: calc(100% - 100px);
   box-sizing: border-box;
   color: var(--color-font);
   text-align: left;
   font-size: 22px;
   font-weight: 300;
+}
+/* "Read More" button */
+#content #aboutMe #aboutMeButtonContainer {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 140px;
+}
+#content #aboutMe #aboutMeButtonContainer #aboutMeButton {
+  background-color: var(--color-navbar);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 48px;
+  border-radius: 16px;
+  border: 0px solid var(--color-accent);
+  color: var(--color-font);
+  font-size: 22px;
+  transition: border 0.05s ease-in-out, background-color 0.1s ease-in-out;
+}
+#content #aboutMe #aboutMeButtonContainer #aboutMeButton:hover {
+  border: 2px solid var(--color-accent);
+}
+#content #aboutMe #aboutMeButtonContainer #aboutMeButton:active {
+  background-color: var(--color-accent);
+}
+/* Long description */
+#content #aboutMe #aboutMeLongContainer {
+  position: relative;
+  display: flex;
+  flex-shrink: 0;
+  width: 1200px;
+  height: 1000px;
+  max-height: 0px;
+  overflow-y: hidden;
+  transition: max-height 1s ease-in-out;
 }

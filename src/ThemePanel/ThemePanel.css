@@ -11,8 +11,7 @@
   box-shadow: 0px 0px 10px 0px #000000;
   overflow: hidden;
   z-index: 1;
-  transition-property: right;
-  transition-duration: 0.5s;
+  transition: right 0.5s, background-color 0.5s 0.1s;
 }
 #themePanel .themePanelHeader {
   background-color: var(--color-navbar);
