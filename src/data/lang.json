@@ -54,8 +54,8 @@
         "Życie to nie sprint, tylko maraton"
       ],
       "aboutMeShort": [
-        "About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, About me short, ",
-        "O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, O mnie krótko, "
+        "Hello! My name is Jacob and I'm a novice Frontend Developer.",
+        "Cześć! Nazywam się Jakub i jestem początkującym Frontend Developerem."
       ],
       "readMore": [
         "Read more",
@@ -64,6 +64,30 @@
       "readLess": [
         "Read less",
         "Zwiń"
+      ],
+      "somethingMoreAboutMe": [
+        "Something more about me",
+        "Coś więcej o mnie"
+      ],
+      "somethingMoreAboutMeText": [
+        "As I mentioned before, my name is Jacob, I'm 22 years old and I finally found out that programming is something I want to be doing in my life, but more about that later. Except for that, I also adore both calisthenics and heavy lifting, it helps me to stay disciplined, improve my physical health and push my limits. Dieting is one of my interests too, but more as an addition to the training. The next thing I absolutely love is gaming, I remember playing video games since I was just a kid and I'd love to create something that people would love to play in the future. What I go crazy about as well is traveling and cuisine, both cooking and eating, I just love learning new recipes and tasting dishes from all over the world even more so.",
+        "Jak wcześniej wspomniałem, nazywam się Jakub, mam 22 lata i w końcu zrozumiałem, że programowanie jest tym, co chcę robić w życiu, ale o tym później. Oprócz tego uwielbiam zarówno kalistenikę, jak i ciężary, dzięki którym pracuję nad dyscypliną, zdrowiem fizycznym, a także przekraczaniem swoich limitów. Interesuję się również dietetyką, ale bardziej na zasadzie dodatku do siłowni. Kolejną rzeczą, którą absolutnie kocham, są gry, jestem graczem już od najmłodszych lat, a w przyszłości sam chciałbym stworzyć coś, w co ludzie z chęcią zagrają. Tym, co także wręcz kocham, jest podróżowanie wraz z kuchnią, gotowanie jak i samo jedzenie, po prostu uwielbiam poznawać nowe przepisy, a tym bardziej próbować dań z różnych zakątków świata."
+      ],
+      "whyDoIProgram": [
+        "Why do I program?",
+        "Dlaczego programuję??"
+      ],
+      "whyDoIProgramText": [
+        "It all started in highschool, where I was introduced to programming for the first time, I felt like it was my thing but I just couldn't get motivated to do anything. And here comes my mentor friend Ph0enix, who gave me the motivation I needed, guided me through all the beginnings once again and basically told me where to start from. With his little help I quickly understood that programming is really my thing, it's easy but challenging at the same time, simple but also complicated, it's a tool with which you can create art, as well as functional applications. The only limit is your own imagination and knowledge but once you get it, you can make wonderful things with it. That's why I absolutely fell in love with programming.",
+        "Wszystko zaczęło się w technikum, gdzie poznałem programowanie po raz pierwszy, miałem wrażenie, że to coś dla mnie, ale brakowało mi motywacji, żeby się za cokolwiek zabrać. Tutaj właśnie pomógł mi mój przyjaciel Ph0enix, który dał mi tą właśnie motywację, przeprowadził przez wszystkie początki jeszcze raz i ogólnie podpowiedział od czego zacząć. Z jego pomocą szybko zrozumiałem, że programowanie rzeczywiście jest czymś dla mnie, jest łatwe, a zarazem pełne wyzwań, proste, ale też skomplikowane, jest narzędziem, dzięki któremu można tworzyć sztukę, jak i funkcjonalne aplikacje. Jedynym ograniczeniem jest nasza własna wyobraźnia i wiedza, ale kiedy już załapiemy o co chodzi, jesteśmy w stanie tworzyć wspaniałe rzeczy. Właśnie dlatego wręcz zakochałem się w programowaniu."
+      ],
+      "myPlansForTheFuture": [
+        "My plans for the future",
+        "Moje plany na przyszłość"
+      ],
+      "myPlansForTheFutureText": [
+        "First of all, I'd want to get more experienced with frontend and web design in general and my primary goal for this moment is to become at least mid-level developer. Other than that, I want to focus on graphics design because that's something I just feel I need to get better in. In the first section before, I mentioned about making my own game, that's something I've been looking forward to since I was just a little kid and now it's one of my long-term goals.",
+        "Na samym początku chciałbym nabrać więcej doświadczenia z frontendem i ogólnie całym web designem, a moim głównym celem na ten moment, to zostać developerem na poziomie co najmniej mida. Oprócz tego chcę się też skupić na projektowaniu grafik, czuję, że jest to coś, nad czym muszę po prostu popracować. W pierwszej sekcji wspomniałem o tworzeniu własnej gry, o tym zawsze myślałem już od dziecka, a teraz jest to jeden z moich długoterminowych planów."
       ]
     },
     "myProjects": {
@@ -80,7 +104,7 @@
         "Klon aplikacji Spotify stworzony przy pomocy React oraz ReactRouter. Chciałem, żeby przypominało Spotify najbardziej jak się da i uważam, że na ten moment wygląda całkiem dobrze! Ciekawostka: Kilka razy pomyliłem mojego klona z prawdziwą aplikacją"
       ],
       "myWebsite": [
-        "Welcome to my website! As you can see you can read about me a little, check my projects and contact me. Also I'm glad you came here.",
+        "Welcome to my website! As you can see, you can read about me a little, check my projects and contact me. Also I'm glad you came here.",
         "Witam na mojej stronie! Jak zapewne widzisz, możesz się tutaj trochę o mnie dowiedzieć, sprawdzić moje projekty i kontaktować się ze mną. Przy okazji, bardzo się cieszę, że tutaj wpadłeś/-aś."
       ]
     },

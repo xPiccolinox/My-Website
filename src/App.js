@@ -59,12 +59,12 @@ function App() {
   const changeAboutMeLong = () => {
     setAboutMeLong(!aboutMeLong)
     if (aboutMeLong == false) {
-      document.getElementById('aboutMeLongContainer').style.maxHeight = `1000px`
-      document.getElementById('aboutMeButton').innerText = `${db.language.aboutMe.readLess[language]}`
+      document.getElementById('aboutMeLongContainer').style.maxHeight = `1100px`
+      document.getElementById('aboutMeButtonText').innerText = `${db.language.aboutMe.readLess[language]}`
     }
     else {
       document.getElementById('aboutMeLongContainer').style.maxHeight = '0px'
-      document.getElementById('aboutMeButton').innerText = `${db.language.aboutMe.readMore[language]}`
+      document.getElementById('aboutMeButtonText').innerText = `${db.language.aboutMe.readMore[language]}`
       document.getElementById("aboutMe").scrollIntoView()      
     }
   }

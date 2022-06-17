@@ -46,7 +46,7 @@
   font-size: 100px;
   line-height: 100px;
   color: #ffffff;
-  text-shadow: 4px 4px #000000;
+  text-shadow: 4px 4px 2px #000000;
   transform: translate(-50%, -50%);
   z-index: -1;
 }

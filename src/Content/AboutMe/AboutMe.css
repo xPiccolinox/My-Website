@@ -15,38 +15,36 @@
   display: flex;
   flex-shrink: 0;
   width: 1200px;
-  height: 360px;
+  height: 300px;
+}
+#content #aboutMe #aboutMeShortcontainer img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border: 3px solid var(--color-font);
+  border-radius: 50%;
+  box-shadow: inset 0px -80px 100px -80px var(--color-font);
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+  flex-shrink: 0;
 }
 #content #aboutMe #aboutMeShortcontainer #aboutMeShort {
-  display: flex;
-  height: 300px;
-  width: 100%;
-}
-#content #aboutMe #aboutMeShortcontainer #aboutMeShort img {
-  width: 320px;
-  height: 360px;
-  object-fit: contain;
-  border-radius: 10%;
-  box-shadow: inset 0px -110px 30px -100px var(--color-font);
-  box-sizing: border-box;
-}
-#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 40px;
-  width: calc(100% - 320px);
-  height: 360px;
-  padding-left: 50px;
+  width: calc(100% - 300px);
+  height: 300px;
+  padding-left: 70px;
 }
-#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer #aboutMeQuote {
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeQuote {
   text-align: left;
   color: var(--color-font);
   font-size: 42px;
   font-weight: 300;
   font-style: italic;
 }
-#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeShortContainer #aboutMeText {
+#content #aboutMe #aboutMeShortcontainer #aboutMeShort #aboutMeText {
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -54,6 +52,7 @@
   text-align: left;
   font-size: 22px;
   font-weight: 300;
+  filter: opacity(0.85);
 }
 /* "Read More" button */
 #content #aboutMe #aboutMeButtonContainer {
@@ -88,10 +87,33 @@
 #content #aboutMe #aboutMeLongContainer {
   position: relative;
   display: flex;
+  justify-content: center;
   flex-shrink: 0;
   width: 1200px;
-  height: 1000px;
+  height: 1100px;
   max-height: 0px;
+  box-sizing: border-box;
   overflow-y: hidden;
-  transition: max-height 1s ease-in-out;
+  transition: max-height 0.7s ease-in-out;
+}
+#content #aboutMe #aboutMeLongContainer #aboutMeLongText {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  color: var(--color-font);
+  padding: 50px 160px;
+}
+#content #aboutMe #aboutMeLongContainer #aboutMeLongText h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 0.5px;
+  margin-top: 42px;
+  margin-bottom: 16px;
+}
+#content #aboutMe #aboutMeLongContainer #aboutMeLongText h4 {
+  font-weight: 300;
+  font-size: 22px;
+  margin: 0px;
+  filter: opacity(0.85);
 }

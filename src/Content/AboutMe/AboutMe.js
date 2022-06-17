@@ -5,20 +5,27 @@ const AboutMe = (props) => {
   return (
     <div id="aboutMe">
       <div id="aboutMeShortcontainer">
-        <div id="aboutMeShort">
-          <img src="images/myPic.png" alt="myPic.png" />
-          <div className="languageChange" id="aboutMeShortContainer">
-            <div id="aboutMeQuote">&bdquo;{db.language.aboutMe.quote[props.language]}&rdquo;</div>
-            <div id="aboutMeText">{db.language.aboutMe.aboutMeShort[props.language]}</div>
-          </div>
+        <img src="images/myPic.png" alt="myPic.png" />
+        <div className="languageChange" id="aboutMeShort">
+          <div id="aboutMeQuote">&bdquo;{db.language.aboutMe.quote[props.language]}&rdquo;</div>
+          <div id="aboutMeText">{db.language.aboutMe.aboutMeShort[props.language]}</div>
         </div>
       </div>
       <div id="aboutMeLongContainer">
-        {db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}{db.language.loremIpsum}
+        <div className="languageChange" id="aboutMeLongText">
+          <h2>{db.language.aboutMe.somethingMoreAboutMe[props.language]}</h2>
+          <h4>{db.language.aboutMe.somethingMoreAboutMeText[props.language]}</h4>
+          <h2>{db.language.aboutMe.whyDoIProgram[props.language]}</h2>
+          <h4>
+            {db.language.aboutMe.whyDoIProgramText[props.language]}
+          </h4>
+          <h2>{db.language.aboutMe.myPlansForTheFuture[props.language]}</h2>
+          <h4>{db.language.aboutMe.myPlansForTheFutureText[props.language]}</h4>
+        </div>
       </div>
       <div id="aboutMeButtonContainer">
         <div id="aboutMeButton" onClick={props.changeAboutMeLong}>
-          Read More
+          <div className="languageChange" id="aboutMeButtonText">{db.language.aboutMe.readMore[props.language]}</div>
         </div>
       </div>
     </div>
