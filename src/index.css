@@ -4,6 +4,7 @@
   --color-secondary: #303030;
   --color-accent: #008888;
   --color-font: #ffffff;
+  --color-imgInvert: 1;
 }
 .theme-dark-purple {
   --color-navbar: #101010;
@@ -11,6 +12,7 @@
   --color-secondary: #303030;
   --color-accent: #880088;
   --color-font: #ffffff;
+  --color-imgInvert: 1;
 }
 .theme-dark-green {
   --color-navbar: #101010;
@@ -18,6 +20,7 @@
   --color-secondary: #303030;
   --color-accent: #338833;
   --color-font: #ffffff;
+  --color-imgInvert: 1;
 }
 .theme-dark-yellow {
   --color-navbar: #101010;
@@ -25,6 +28,7 @@
   --color-secondary: #303030;
   --color-accent: #aaaa00;
   --color-font: #ffffff;
+  --color-imgInvert: 1;
 }
 .theme-light-blue {
   --color-navbar: #ffffff;
@@ -32,6 +36,7 @@
   --color-secondary: #f0f0f0;
   --color-accent: #38aedd;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-light-purple {
   --color-navbar: #ffffff;
@@ -39,6 +44,7 @@
   --color-secondary: #f0f0f0;
   --color-accent: #bb24bb;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-light-green {
   --color-navbar: #ffffff;
@@ -46,6 +52,7 @@
   --color-secondary: #f0f0f0;
   --color-accent: #30c230;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-light-yellow {
   --color-navbar: #ffffff;
@@ -53,6 +60,7 @@
   --color-secondary: #f0f0f0;
   --color-accent: #dada26;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-blue-blue {
   --color-navbar: #599ebe;
@@ -60,6 +68,7 @@
   --color-secondary: #abdff7;
   --color-accent: #38aedd;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-blue-purple {
   --color-navbar: #599ebe;
@@ -67,6 +76,7 @@
   --color-secondary: #abdff7;
   --color-accent: #bb24bb;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-blue-green {
   --color-navbar: #599ebe;
@@ -74,6 +84,7 @@
   --color-secondary: #abdff7;
   --color-accent: #30c230;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 .theme-blue-yellow {
   --color-navbar: #599ebe;
@@ -81,6 +92,7 @@
   --color-secondary: #abdff7;
   --color-accent: #dada26;
   --color-font: #000000;
+  --color-imgInvert: 0;
 }
 * {
   transition-property: color, background-color, box-shadow, text-shadow;

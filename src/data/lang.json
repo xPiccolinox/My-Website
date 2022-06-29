@@ -106,6 +106,10 @@
       "myWebsite": [
         "Welcome to my website! As you can see, you can read about me a little, check my projects and contact me. Also I'm glad you came here.",
         "Witam na mojej stronie! Jak zapewne widzisz, możesz się tutaj trochę o mnie dowiedzieć, sprawdzić moje projekty i kontaktować się ze mną. Przy okazji, bardzo się cieszę, że tutaj wpadłeś/-aś."
+      ],
+      "cubesCss": [
+        "Welcome to my website! As you can see, you can read about me a little, check my projects and contact me. Also I'm glad you came here.",
+        "Witam na mojej stronie! Jak zapewne widzisz, możesz się tutaj trochę o mnie dowiedzieć, sprawdzić moje projekty i kontaktować się ze mną. Przy okazji, bardzo się cieszę, że tutaj wpadłeś/-aś."
       ]
     },
     "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. "

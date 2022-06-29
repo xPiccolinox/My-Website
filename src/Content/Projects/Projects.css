@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 64px 0px 300px 0px;
+  padding: 64px 0px 64px 0px;
   width: 100%;
 }
 #content #myProjects #projectsList {
@@ -34,7 +34,8 @@
 }
 #content #myProjects #projectsList .projectTile:hover img {
   filter: brightness(0.1);
-  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+  transition: filter ease-in-out 0.3s, transform ease-in-out 0.2s;
 }
 /* Description div */
 #content #myProjects #projectsList .projectTile .projectDesc {
